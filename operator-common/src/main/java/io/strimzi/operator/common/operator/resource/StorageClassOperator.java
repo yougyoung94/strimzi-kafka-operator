@@ -7,7 +7,7 @@ package io.strimzi.operator.common.operator.resource;
 import io.fabric8.kubernetes.api.model.storage.StorageClass;
 import io.fabric8.kubernetes.api.model.storage.StorageClassList;
 import io.fabric8.kubernetes.client.KubernetesClient;
-import io.fabric8.kubernetes.client.dsl.MixedOperation;
+import io.fabric8.kubernetes.client.dsl.NonNamespaceOperation;
 import io.fabric8.kubernetes.client.dsl.Resource;
 import io.vertx.core.Vertx;
 
@@ -25,8 +25,6 @@ public class StorageClassOperator extends AbstractNonNamespacedResourceOperator<
     }
 
     @Override
-    protected MixedOperation<StorageClass, StorageClassList,
-            Resource<StorageClass>> operation() {
-        return client.storage().storageClasses();
-    }
+    protected NonNamespaceOperation<StorageClass, StorageClassList,
+            Resource<StorageClass>> operation() { return client.storage().storageClasses(); }
 }

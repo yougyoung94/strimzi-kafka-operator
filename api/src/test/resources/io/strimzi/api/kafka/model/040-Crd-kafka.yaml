@@ -1276,6 +1276,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -1290,6 +1308,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -1342,6 +1378,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -1356,6 +1410,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -2366,6 +2438,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -2380,6 +2470,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -2432,6 +2540,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -2446,6 +2572,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -3431,6 +3575,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -3445,6 +3607,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -3497,6 +3677,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -3511,6 +3709,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -4372,6 +4588,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -4386,6 +4620,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -4438,6 +4690,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -4452,6 +4722,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -5161,6 +5449,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -5175,6 +5481,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -5227,6 +5551,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -5241,6 +5583,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -5677,6 +6037,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -5691,6 +6069,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -5743,6 +6139,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -5757,6 +6171,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -7956,6 +8388,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -7970,6 +8420,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -8022,6 +8490,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -8036,6 +8522,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -8590,6 +9094,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -8604,6 +9126,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -8656,6 +9196,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -8670,6 +9228,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -9456,6 +10032,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -9470,6 +10064,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -9522,6 +10134,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -9536,6 +10166,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -9980,6 +10628,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -9994,6 +10660,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -10046,6 +10730,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -10060,6 +10762,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -10611,6 +11331,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -10625,6 +11363,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -10677,6 +11433,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -10691,6 +11465,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -11444,6 +12236,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -11458,6 +12268,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -11510,6 +12338,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -11524,6 +12370,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -11881,6 +12745,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -11895,6 +12777,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -11947,6 +12847,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -11961,6 +12879,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -12826,6 +13762,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -12840,6 +13794,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -12892,6 +13864,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -12906,6 +13896,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -13591,6 +14599,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -13605,6 +14631,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -13657,6 +14701,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -13671,6 +14733,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -14107,6 +15187,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -14121,6 +15219,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -14173,6 +15289,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -14187,6 +15321,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -16386,6 +17538,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -16400,6 +17570,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -16452,6 +17640,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -16466,6 +17672,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -17020,6 +18244,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -17034,6 +18276,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -17086,6 +18346,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -17100,6 +18378,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -17886,6 +19182,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -17900,6 +19214,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -17952,6 +19284,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -17966,6 +19316,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -18410,6 +19778,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -18424,6 +19810,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -18476,6 +19880,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -18490,6 +19912,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -19041,6 +20481,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -19055,6 +20513,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -19107,6 +20583,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -19121,6 +20615,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -19874,6 +21386,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -19888,6 +21418,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -19940,6 +21488,24 @@ spec:
                                                   type: string
                                         matchLabels:
                                           type: object
+                                    namespaceSelector:
+                                      type: object
+                                      properties:
+                                        matchExpressions:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              key:
+                                                type: string
+                                              operator:
+                                                type: string
+                                              values:
+                                                type: array
+                                                items:
+                                                  type: string
+                                        matchLabels:
+                                          type: object
                                     namespaces:
                                       type: array
                                       items:
@@ -19954,6 +21520,24 @@ spec:
                               type: object
                               properties:
                                 labelSelector:
+                                  type: object
+                                  properties:
+                                    matchExpressions:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          key:
+                                            type: string
+                                          operator:
+                                            type: string
+                                          values:
+                                            type: array
+                                            items:
+                                              type: string
+                                    matchLabels:
+                                      type: object
+                                namespaceSelector:
                                   type: object
                                   properties:
                                     matchExpressions:
@@ -20311,6 +21895,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -20325,6 +21927,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -20377,6 +21997,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -20391,6 +22029,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -21256,6 +22912,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -21270,6 +22944,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -21322,6 +23014,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -21336,6 +23046,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -22021,6 +23749,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -22035,6 +23781,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -22087,6 +23851,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -22101,6 +23883,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -22537,6 +24337,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -22551,6 +24369,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:
@@ -22603,6 +24439,24 @@ spec:
                                                           type: string
                                                 matchLabels:
                                                   type: object
+                                            namespaceSelector:
+                                              type: object
+                                              properties:
+                                                matchExpressions:
+                                                  type: array
+                                                  items:
+                                                    type: object
+                                                    properties:
+                                                      key:
+                                                        type: string
+                                                      operator:
+                                                        type: string
+                                                      values:
+                                                        type: array
+                                                        items:
+                                                          type: string
+                                                matchLabels:
+                                                  type: object
                                             namespaces:
                                               type: array
                                               items:
@@ -22617,6 +24471,24 @@ spec:
                                       type: object
                                       properties:
                                         labelSelector:
+                                          type: object
+                                          properties:
+                                            matchExpressions:
+                                              type: array
+                                              items:
+                                                type: object
+                                                properties:
+                                                  key:
+                                                    type: string
+                                                  operator:
+                                                    type: string
+                                                  values:
+                                                    type: array
+                                                    items:
+                                                      type: string
+                                            matchLabels:
+                                              type: object
+                                        namespaceSelector:
                                           type: object
                                           properties:
                                             matchExpressions:

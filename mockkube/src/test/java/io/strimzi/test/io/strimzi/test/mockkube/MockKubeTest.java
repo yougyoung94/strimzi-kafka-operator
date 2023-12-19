@@ -19,7 +19,6 @@ import io.fabric8.kubernetes.client.dsl.Resource;
 import io.strimzi.api.kafka.Crds;
 import io.strimzi.api.kafka.KafkaTopicList;
 import io.strimzi.api.kafka.model.KafkaTopic;
-import io.strimzi.api.kafka.model.KafkaTopicBuilder;
 import io.strimzi.test.mockkube.MockKube;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -42,41 +41,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class MockKubeTest<RT extends HasMetadata, LT extends KubernetesResource & KubernetesResourceList> {
 
     KubernetesClient client;
-
-    @SuppressWarnings("unchecked")
-    public static Iterable<Object[]> parameters() {
-        return Arrays.<Object[]>asList(
-                new Object[]{Pod.class,
-                    (Consumer<MockKube>) mockKube -> {
-                    },
-                    (Supplier<HasMetadata>) () ->
-                        new PodBuilder()
-                            .withNewMetadata()
-                                .withName("my-pod")
-                                .withNamespace("my-project")
-                                .addToLabels("my-label", "foo")
-                                .addToLabels("my-other-label", "bar")
-                            .endMetadata()
-                        .build(),
-                    (Function<KubernetesClient, MixedOperation>) client -> client.pods()
-                },
-                new Object[]{KafkaTopic.class,
-                    (Consumer<MockKube>) mockKube -> {
-                        mockKube.withCustomResourceDefinition(Crds.kafkaTopic(), KafkaTopic.class, KafkaTopicList.class);
-                    },
-                    (Supplier<HasMetadata>) () ->
-                        new KafkaTopicBuilder()
-                            .withNewMetadata()
-                                .withName("my-topic")
-                                .withNamespace("my-project")
-                                .addToLabels("my-label", "foo")
-                                .addToLabels("my-other-label", "bar")
-                            .endMetadata()
-                        .build(),
-                    (Function<KubernetesClient, MixedOperation>) client -> Crds.topicOperation(client)
-                    }
-                );
-    }
 
     public void createClient(Consumer<MockKube> init) throws MalformedURLException {
         MockKube mockKube = new MockKube();
