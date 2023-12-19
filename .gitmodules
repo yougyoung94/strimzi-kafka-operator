@@ -1,0 +1,3 @@
+[submodule "strimzi-kafka-operator"]
+	path = strimzi-kafka-operator
+	url = https://github.com/yougyoung94/strimzi-kafka-operator.git
